@@ -1,6 +1,6 @@
-# {
-#"course": 411,
-#"courseName": "Software in Telecommunications",
-#"releaseYear": 2020,
-#"date": 20200923
-#}
+{
+"course": 411,
+"courseName": "Software in Telecommunications",
+"releaseYear": 2020,
+"date": 20200923
+}
