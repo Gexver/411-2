@@ -37,13 +37,13 @@
     <div class="menu">
         <div class="row">
             <div class="col-md-6">
-                <img src="http://cdn.onlinewebfonts.com/svg/img_499532.png"> 
-                <img src="https://img.svg.com/img/svgdotcom_logo_color.png">
-                <img src="http://cdn.onlinewebfonts.com/svg/img_499532.png"> 
-                <img src="https://img.svg.com/img/svgdotcom_logo_color.png">
-                <img src="http://cdn.onlinewebfonts.com/svg/img_499532.png"> 
-                <img src="https://img.svg.com/img/svgdotcom_logo_color.png">
-                <img src="http://cdn.onlinewebfonts.com/svg/img_499532.png"> 
+                <img src="https://www.fold.lv/uploads/2017/06/RTU-vizuala-identitate-Teika-000.png" width="90" height="57">  
+                <img src="https://upload.wikimedia.org/wikipedia/lv/thumb/f/fd/RTU_logo_2017.svg/1232px-RTU_logo_2017.svg.png" width="90" height="57">
+                <img src="https://www.fold.lv/uploads/2017/06/RTU-vizuala-identitate-Teika-000.png" width="90" height="57"> 
+                <img src="https://upload.wikimedia.org/wikipedia/lv/thumb/f/fd/RTU_logo_2017.svg/1232px-RTU_logo_2017.svg.png" width="90" height="57">
+                <img src="https://www.fold.lv/uploads/2017/06/RTU-vizuala-identitate-Teika-000.png" width="90" height="57"> 
+                <img src="https://upload.wikimedia.org/wikipedia/lv/thumb/f/fd/RTU_logo_2017.svg/1232px-RTU_logo_2017.svg.png" width="90" height="57">
+                <img src="https://www.fold.lv/uploads/2017/06/RTU-vizuala-identitate-Teika-000.png" width="90" height="57"> 
             </div>
             <div class="col-md-6">
                 <ul>
@@ -56,12 +56,18 @@
     <div class="row">
         <div class="col-md-3">
             <article class="left">
-                <a href="https://pp.userapi.com/c845219/v845219379/16331f/f9Djo-6_HN0.jpg" target="_blank">
-                    <img src="https://pp.userapi.com/c845219/v845219379/16331f/f9Djo-6_HN0.jpg" alt="my main photo"></a>
-                <a href="https://pp.userapi.com/c845524/v845524398/e10fc/Wea-9TTdOm0.jpg" target="_blank">
-                    <img src="https://pp.userapi.com/c845524/v845524398/e10fc/Wea-9TTdOm0.jpg" alt="my second photo"></a>
-                <a href="https://pp.userapi.com/c844321/v844321398/e438b/Y9prnjrp-UI.jpg" target="_blank">
-                    <img src="https://pp.userapi.com/c844321/v844321398/e438b/Y9prnjrp-UI.jpg" alt="my third photo"></a>
+                <article class="scale">
+                    <a href="https://pp.userapi.com/c845219/v845219379/16331f/f9Djo-6_HN0.jpg" target="_blank">
+                        <img src="https://pp.userapi.com/c845219/v845219379/16331f/f9Djo-6_HN0.jpg" alt="my main photo"></a>
+                </article>
+                <article class="scale">
+                    <a href="https://pp.userapi.com/c845524/v845524398/e10fc/Wea-9TTdOm0.jpg" target="_blank">
+                        <img src="https://pp.userapi.com/c845524/v845524398/e10fc/Wea-9TTdOm0.jpg" alt="my second photo"></a>
+                </article>
+                <article class="scale">
+                    <a href="https://pp.userapi.com/c844321/v844321398/e438b/Y9prnjrp-UI.jpg" target="_blank">
+                        <img src="https://pp.userapi.com/c844321/v844321398/e438b/Y9prnjrp-UI.jpg" alt="my third photo"></a>
+                </article>
                 <canvas height='230' width='230' id='myCanvas'></canvas>
                 <div id='clock'></div> <br>
             </article>
@@ -106,18 +112,38 @@
                     <img src="https://avatars.mds.yandex.net/get-pdb/788379/4c6d6106-7830-4dcf-a827-5dd252f46642/s1200?webp=false" alt="Lenin">
                 </div>
             </div>
+            </article>
             <div>
                 <h1>
                     HOMEWORK
                 </h1>
-                <pre style="word-wrap: break-word; white-space: pre-wrap;">
-                    <p>
-                    Click to the image below:
-                    </p>
-                    <a href="https://4v9r83qfo4.execute-api.eu-central-1.amazonaws.com/dev"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1024px-JSON_vector_logo.svg.png" alt="JSON"></a>
+                <h2>
+                    Data types and syntax
+                </h2>
+                <p> JSON's basic data types are: </p><br>
+                <hr>
+                    <b>Number</b>: a signed decimal number that may contain a fractional part and may use exponential E notation, but cannot include non-numbers such as NaN. The format makes no distinction between integer and floating-point. JavaScript uses a double-precision floating-point format for all its numeric values, but other languages implementing JSON may encode numbers differently.<br>
+                    <b>String</b>: a sequence of zero or more Unicode characters. Strings are delimited with double-quotation marks and support a backslash escaping syntax.<br>
+                    <b>Boolean</b>: either of the values true or false<br>
+                    <b>Array</b>: an ordered list of zero or more values, each of which may be of any type. Arrays use square bracket notation with comma-separated elements.<br>
+                    <b>Object</b>: a collection of name–value pairs where the names (also called keys) are strings. Objects are intended to represent associative arrays, where each key is unique within an object. Objects are delimited with curly brackets and use commas to separate each pair, while within each pair the colon ':' character separates the key or name from its value.<br>
+                    <b>null</b>: an empty value, using the word null<br>
+                <hr>
+                <p> Whitespace is allowed and ignored around or between syntactic elements (values and punctuation, but not within a string value). Four specific characters are considered whitespace for this purpose: space, horizontal tab, line feed, and carriage return. In particular, the byte order mark must not be generated by a conforming implementation (though it may be accepted when parsing JSON). JSON does not provide syntax for comments. <br>
+                    Early versions of JSON (such as specified by RFC 4627) required that a valid JSON text must consist of only an object or an array type, which could contain other types within them. This restriction was dropped in RFC 7158, where a JSON text was redefined as any serialized value. </p>
+                <pre class="homework">
+                    <p> Click to the image below:</p>
+                    <a href="https://4v9r83qfo4.execute-api.eu-central-1.amazonaws.com/dev"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1024px-JSON_vector_logo.svg.png" alt="JSON"></a>    
+                {
+                "course": 411,
+                "courseName": "Software in Telecommunications",
+                "releaseYear": 2020,
+                "courseActive": true,
+                "droppedStudents": null,
+                "date": 20200929,
+                }
                 </pre>
             </div>
-            </article>
         </div>
         <div class="col-md-3">
             <article class="right">
