@@ -1,11 +1,11 @@
-#{
+{
 
-#"course": 411,
+"course": 411,
 
-#"courseName": "Software in Telecommunications",
+"courseName": "Software in Telecommunications",
 
-#"releaseYear": 2020,
+"releaseYear": 2020,
 
-#"date": 20200923
+"date": 20200923
 
-#}
+}
