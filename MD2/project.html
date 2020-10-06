@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en, ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src = "clockscript.js"></script>
+    <script src = "JSONdata.js"></script>
+    <script src = "JSONscores.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+<header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="main">
+                <a href="index.html">JSON first try!!</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="header">
+                <a href="https://vk.com/gexver" alt="vk" target="_blank"><i class="fab fa-vk"></i>VK</a><br>
+                <a href="https://www.facebook.com/gexver" alt="facebook" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="header">
+                <a href="https://www.instagram.com/dtgexver/" alt="instagram" target="_blank"><i class="fab fa-instagram">Instagram</i></a><br>
+                <a href="https://soundcloud.com/dj-gexver" alt="soundcloud" target="_blank"><i class="fab fa-soundcloud">Soundcloud</i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+<div class="container">
+    <div class="menu">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://www.fold.lv/uploads/2017/06/RTU-vizuala-identitate-Teika-000.png" width="90" height="57">  
+                <img src="https://upload.wikimedia.org/wikipedia/lv/thumb/f/fd/RTU_logo_2017.svg/1232px-RTU_logo_2017.svg.png" width="90" height="57">
+                <img src="https://www.fold.lv/uploads/2017/06/RTU-vizuala-identitate-Teika-000.png" width="90" height="57"> 
+                <img src="https://upload.wikimedia.org/wikipedia/lv/thumb/f/fd/RTU_logo_2017.svg/1232px-RTU_logo_2017.svg.png" width="90" height="57">
+                <img src="https://www.fold.lv/uploads/2017/06/RTU-vizuala-identitate-Teika-000.png" width="90" height="57"> 
+                <img src="https://upload.wikimedia.org/wikipedia/lv/thumb/f/fd/RTU_logo_2017.svg/1232px-RTU_logo_2017.svg.png" width="90" height="57">
+                <img src="https://www.fold.lv/uploads/2017/06/RTU-vizuala-identitate-Teika-000.png" width="90" height="57"> 
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li><a href="https://github.com/Gexver/411-2/blob/master/README.md" alt="github" target="_blank">Github</a></li>
+                    <li><a href="project.html" alt="menu">Project</a></li>
+                    <li><a href="index.html" alt="menu">Menu</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text">
+            <div>
+                <h1>
+                    HOMEWORK
+                </h1>
+                <h2>
+                    Data types and syntax
+                </h2>
+                <p> JSON's basic data types are: </p><br>
+                <hr>
+                    <b>Number</b>: a signed decimal number that may contain a fractional part and may use exponential E notation, but cannot include non-numbers such as NaN. The format makes no distinction between integer and floating-point. JavaScript uses a double-precision floating-point format for all its numeric values, but other languages implementing JSON may encode numbers differently.<br>
+                    <b>String</b>: a sequence of zero or more Unicode characters. Strings are delimited with double-quotation marks and support a backslash escaping syntax.<br>
+                    <b>Boolean</b>: either of the values true or false<br>
+                    <b>Array</b>: an ordered list of zero or more values, each of which may be of any type. Arrays use square bracket notation with comma-separated elements.<br>
+                    <b>Object</b>: a collection of name–value pairs where the names (also called keys) are strings. Objects are intended to represent associative arrays, where each key is unique within an object. Objects are delimited with curly brackets and use commas to separate each pair, while within each pair the colon ':' character separates the key or name from its value.<br>
+                    <b>null</b>: an empty value, using the word null<br>
+                <hr>
+                <p> Whitespace is allowed and ignored around or between syntactic elements (values and punctuation, but not within a string value). Four specific characters are considered whitespace for this purpose: space, horizontal tab, line feed, and carriage return. In particular, the byte order mark must not be generated by a conforming implementation (though it may be accepted when parsing JSON). JSON does not provide syntax for comments. <br>
+                    Early versions of JSON (such as specified by RFC 4627) required that a valid JSON text must consist of only an object or an array type, which could contain other types within them. This restriction was dropped in RFC 7158, where a JSON text was redefined as any serialized value. </p>
+                </div>
+                <hr>
+            </div>
+            <pre class="homework">
+                <p> Click to the image below:</p>
+                <a href="https://4v9r83qfo4.execute-api.eu-central-1.amazonaws.com/dev"><img src="https://cybarlab.com/wp-content/uploads/2015/04/json-logo.png" alt="JSON" width="5"></a><br>    
+            </pre>
+            <hr>
+    </div>
+    <div class="col-md-6">
+        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+        <div id="chartContainer_2" style="height: 370px; width: 100%;"></div>
+    </div>
+</div>
+<footer>
+<div class="container">
+    <article>
+        <h4>First time to JS</h4>
+        <p>This is a first time for me to try use the JS code into my site</p>
+    </article>
+</div>
+</footer>
+</body>
+</html>
